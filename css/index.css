@@ -1,0 +1,32 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.container-fluid{
+	background-color: grey;
+	width: 1200px;
+	height: 500px;
+	margin-top: 80px;
+	border-radius: 10px;
+}
+
+.col-sm-6{
+	margin-top: 20px;
+	font-size: 20px;
+	/*font-style: verdana;*/
+	/*text-align: center;*/
+	color: black;
+}
+
+label{
+	margin-top: 10px;
+}
+
+/*#nextLine{
+	margin-left: -92px;
+}*/
+
+#button{
+	margin-top: 15px;
+}
