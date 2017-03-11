@@ -1,7 +1,9 @@
 *{
 	margin: 0;
 	padding: 0;
+	font-family: sans-serif;
 }
+
 
 .container-fluid{
 	background-color: grey;
@@ -17,6 +19,9 @@
 	/*font-style: verdana;*/
 	/*text-align: center;*/
 	color: black;
+	background-color: red;
+	border-radius: 20;
+	height: 450px;
 }
 
 label{
@@ -29,4 +34,50 @@ label{
 
 #button{
 	margin-top: 15px;
+}
+
+#div1, #div2{
+    width: 272.5px;
+}
+
+.col-sm-6.right{
+	background-color: #eee;
+	width: 550px;
+	margin-left: 20px;
+	border-radius: 20px;
+}
+
+.col-sm-6.left{
+	background-color: #eee;
+	width: 600px;
+	margin-left: 20px;
+	border-radius: 20px;
+}
+
+.container-fluid:first-child{
+    height: 110px;
+    margin-bottom: -70px;
+    margin-top: 20px;
+}
+
+div h1{
+	text-align: center;
+}
+
+#header{
+	float: right;
+}
+
+div a{
+    font-size: 20px;
+    color: #333;
+    text-decoration: none;
+    position: absolute;
+    margin-top: -40px;
+    margin-left: -145px;
+}
+
+div a:hover{
+	    color: #999;
+    text-decoration: none;
 }
