@@ -7,30 +7,13 @@
 
 .container-fluid{
 	background-color: grey;
-	width: 1200px;
 	height: 500px;
 	margin-top: 80px;
-	border-radius: 10px;
-}
-
-.col-sm-6{
-	margin-top: 20px;
-	font-size: 20px;
-	/*font-style: verdana;*/
-	/*text-align: center;*/
-	color: black;
-	background-color: red;
-	border-radius: 20;
-	height: 450px;
 }
 
 label{
 	margin-top: 10px;
 }
-
-/*#nextLine{
-	margin-left: -92px;
-}*/
 
 #button{
 	margin-top: 15px;
@@ -40,17 +23,30 @@ label{
     width: 272.5px;
 }
 
-.col-sm-6.right{
+.col-sm-4.right{
 	background-color: #eee;
-	width: 550px;
-	margin-left: 20px;
+	margin-top: 20px;
+	width: 435px;
+	margin-left: 14px;
 	border-radius: 20px;
+    padding-bottom: 44.5px;
 }
 
-.col-sm-6.left{
+
+.col-sm-4.right1{
 	background-color: #eee;
-	width: 600px;
-	margin-left: 20px;
+	margin-top: 20px;
+	width: 435px;
+	margin-left: 14px;
+	border-radius: 20px;
+    padding-bottom: 156px;
+}
+
+.col-sm-4.left{
+	margin-top: 20px;
+	background-color: #eee;
+	width: 435px;
+	margin-left: 14px;
 	border-radius: 20px;
 }
 
@@ -68,16 +64,16 @@ div h1{
 	float: right;
 }
 
-div a{
+#github{
     font-size: 20px;
     color: #333;
     text-decoration: none;
-    position: absolute;
-    margin-top: -40px;
+   	margin-top: 5px;
+    float: right;
     margin-left: -145px;
 }
 
-div a:hover{
-	    color: #999;
+#github:hover{
+    color: #999;
     text-decoration: none;
 }
